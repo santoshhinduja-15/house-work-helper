@@ -1,0 +1,83 @@
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #f4f6f9;
+}
+
+.navbar {
+  background-color: #002b5b;
+}
+
+.navbar .nav-link {
+  color: #ffffff !important;
+}
+
+.hero {
+  background: linear-gradient(to right, #002b5b, #005a8d);
+  color: white;
+}
+
+.hero h1 {
+  font-weight: 700;
+}
+
+.btn-cta {
+  font-weight: 600;
+  padding: 12px 28px;
+  font-size: 1.1rem;
+  border-radius: 8px;
+}
+
+.card-icon {
+  font-size: 2.8rem;
+}
+
+.card-title {
+  font-weight: 600;
+}
+
+.card {
+  border: none;
+  border-radius: 16px;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.footer {
+  background-color: #002b5b;
+  color: white;
+}
+
+.emoji-wave {
+  animation: wave 1.5s infinite;
+  transform-origin: 70% 70%;
+  display: inline-block;
+}
+
+@keyframes wave {
+  0% {
+    transform: rotate(0deg);
+  }
+  15% {
+    transform: rotate(14deg);
+  }
+  30% {
+    transform: rotate(-8deg);
+  }
+  45% {
+    transform: rotate(14deg);
+  }
+  60% {
+    transform: rotate(-4deg);
+  }
+  75% {
+    transform: rotate(10deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
